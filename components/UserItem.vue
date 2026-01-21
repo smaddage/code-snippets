@@ -1,7 +1,8 @@
 <template>
     <div @click="selectUser">
       <p>{{ user.name }}</p>
-      <p>{{ user.email }}</p>
+      <p>{{ user.Email }}</p>
+      <span v-html="user.description"></span>
     </div>
   </template>
   
